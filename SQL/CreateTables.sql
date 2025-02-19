@@ -2,11 +2,11 @@ DROP TABLE IF EXISTS likes, DM, story, following, comment, post, user;
 
 CREATE TABLE user (
     UserId INT PRIMARY KEY AUTO_INCREMENT,
-    Email VARCHAR(255) UNIQUE NOT NULL,
+    Email NVARCHAR(255) UNIQUE NOT NULL,
     Bio NVARCHAR(500),
-    Username VARCHAR(50) UNIQUE NOT NULL,
-    ProfilePic VARCHAR(255),
-    Password VARCHAR(255) NOT NULL
+    Username NVARCHAR(50) UNIQUE NOT NULL,
+    ProfilePic NVARCHAR(255),
+    Password NVARCHAR(255) NOT NULL
 );
 
 CREATE TABLE post (
@@ -16,7 +16,7 @@ CREATE TABLE post (
     Likes INT DEFAULT 0,
     UserId INT,
     Caption NVARCHAR(500),
-    Picture VARCHAR(255),
+    Picture NVARCHAR(255),
     FOREIGN KEY (UserId) REFERENCES user(UserId) ON DELETE CASCADE
 );
 
