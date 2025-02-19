@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\instafram.DAL\instafram.DAL.csproj" />
+    <ProjectReference Include="..\instafram.Models\instafram.Models.csproj" />
+  </ItemGroup>
+
 </Project>
