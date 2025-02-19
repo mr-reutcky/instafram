@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS likes, DM, story, following, comment, post, user;
+
 CREATE TABLE user (
     UserId INT PRIMARY KEY AUTO_INCREMENT,
     Email VARCHAR(255) UNIQUE NOT NULL,
