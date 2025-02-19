@@ -39,6 +39,8 @@ CREATE TABLE following (
     CONSTRAINT unique_follow UNIQUE (FollowerId, FolloweeId)
 );
 
+SET GLOBAL event_scheduler = ON;
+
 CREATE TABLE story (
     StoryId INT PRIMARY KEY AUTO_INCREMENT,
     Views INT DEFAULT 0,
@@ -47,6 +49,12 @@ CREATE TABLE story (
     ExpirationTime DATETIME GENERATED ALWAYS AS (Timestamp + INTERVAL 1 DAY) VIRTUAL,
     FOREIGN KEY (UserId) REFERENCES user(UserId) ON DELETE CASCADE
 );
+
+CREATE EVENT delete_expired_stories
+ON SCHEDULE EVERY 1 MINUTE
+DO
+DELETE FROM story WHERE ExpirationTime <= NOW();
+
 
 CREATE TABLE DM (
     DMId INT PRIMARY KEY AUTO_INCREMENT,
