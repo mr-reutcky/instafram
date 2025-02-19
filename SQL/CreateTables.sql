@@ -6,7 +6,6 @@ CREATE TABLE user (
     Bio NVARCHAR(500),
     Username VARCHAR(50) UNIQUE NOT NULL,
     ProfilePic VARCHAR(255),
-    Followers INT DEFAULT 0,
     Password VARCHAR(255) NOT NULL
 );
 
