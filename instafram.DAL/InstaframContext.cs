@@ -27,6 +27,8 @@ public partial class InstaframContext : DbContext
 
     public virtual DbSet<Story> Stories { get; set; }
 
+    public virtual DbSet<Storylike> Storylikes { get; set; }
+
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -37,7 +39,7 @@ public partial class InstaframContext : DbContext
     {
         modelBuilder.Entity<Comment>(entity =>
         {
-            entity.HasKey(e => e.CommentId).HasName("PK__comment__C3B4DFCA1A5F0E04");
+            entity.HasKey(e => e.CommentId).HasName("PK__comment__C3B4DFCADEF3328F");
 
             entity.ToTable("comment");
 
@@ -50,16 +52,17 @@ public partial class InstaframContext : DbContext
 
             entity.HasOne(d => d.Post).WithMany(p => p.Comments)
                 .HasForeignKey(d => d.PostId)
-                .HasConstraintName("FK__comment__PostId__73BA3083");
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__comment__PostId__16EE5E27");
 
             entity.HasOne(d => d.User).WithMany(p => p.Comments)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__comment__UserId__74AE54BC");
+                .HasConstraintName("FK__comment__UserId__17E28260");
         });
 
         modelBuilder.Entity<Dm>(entity =>
         {
-            entity.HasKey(e => e.Dmid).HasName("PK__DM__28BFED41014DED8F");
+            entity.HasKey(e => e.Dmid).HasName("PK__DM__28BFED41287BFD0F");
 
             entity.ToTable("DM");
 
@@ -71,16 +74,17 @@ public partial class InstaframContext : DbContext
 
             entity.HasOne(d => d.Recipient).WithMany(p => p.DmRecipients)
                 .HasForeignKey(d => d.RecipientId)
-                .HasConstraintName("FK__DM__RecipientId__04E4BC85");
+                .HasConstraintName("FK__DM__RecipientId__2724C5F0");
 
             entity.HasOne(d => d.Sender).WithMany(p => p.DmSenders)
                 .HasForeignKey(d => d.SenderId)
-                .HasConstraintName("FK__DM__SenderId__03F0984C");
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__DM__SenderId__2630A1B7");
         });
 
         modelBuilder.Entity<Follow>(entity =>
         {
-            entity.HasKey(e => e.FollowId).HasName("PK__follow__2CE810AE7C142535");
+            entity.HasKey(e => e.FollowId).HasName("PK__follow__2CE810AE2A87748B");
 
             entity.ToTable("follow");
 
@@ -92,20 +96,19 @@ public partial class InstaframContext : DbContext
 
             entity.HasOne(d => d.Followee).WithMany(p => p.FollowFollowees)
                 .HasForeignKey(d => d.FolloweeId)
-                .HasConstraintName("FK__follow__Followee__7A672E12");
+                .HasConstraintName("FK__follow__Followee__1D9B5BB6");
 
             entity.HasOne(d => d.Follower).WithMany(p => p.FollowFollowers)
                 .HasForeignKey(d => d.FollowerId)
-                .HasConstraintName("FK__follow__Follower__797309D9");
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__follow__Follower__1CA7377D");
         });
 
         modelBuilder.Entity<Like>(entity =>
         {
-            entity.HasKey(e => e.LikeId).HasName("PK__likes__A2922C140FD9979E");
+            entity.HasKey(e => e.LikeId).HasName("PK__likes__A2922C14DFF7A372");
 
             entity.ToTable("likes");
-
-            entity.HasIndex(e => new { e.UserId, e.PostId }, "unique_like").IsUnique();
 
             entity.Property(e => e.Timestamp)
                 .HasDefaultValueSql("(getdate())")
@@ -113,16 +116,17 @@ public partial class InstaframContext : DbContext
 
             entity.HasOne(d => d.Post).WithMany(p => p.LikesNavigation)
                 .HasForeignKey(d => d.PostId)
-                .HasConstraintName("FK__likes__PostId__0A9D95DB");
+                .HasConstraintName("FK__likes__PostId__2BE97B0D");
 
             entity.HasOne(d => d.User).WithMany(p => p.Likes)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__likes__UserId__09A971A2");
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__likes__UserId__2AF556D4");
         });
 
         modelBuilder.Entity<Post>(entity =>
         {
-            entity.HasKey(e => e.PostId).HasName("PK__post__AA12601839A2BC9B");
+            entity.HasKey(e => e.PostId).HasName("PK__post__AA12601826308F89");
 
             entity.ToTable("post");
 
@@ -136,17 +140,17 @@ public partial class InstaframContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.Posts)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__post__UserId__6FE99F9F");
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__post__UserId__131DCD43");
         });
 
         modelBuilder.Entity<Story>(entity =>
         {
-            entity.HasKey(e => e.StoryId).HasName("PK__story__3E82C048B5BDEFE5");
+            entity.HasKey(e => e.StoryId).HasName("PK__story__3E82C0485CF1877C");
 
             entity.ToTable("story");
 
             entity.Property(e => e.ExpirationTime).HasColumnType("datetime");
-            entity.Property(e => e.Likes).HasDefaultValue(0);
             entity.Property(e => e.Timestamp)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
@@ -154,18 +158,39 @@ public partial class InstaframContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.Stories)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__story__UserId__00200768");
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__story__UserId__226010D3");
+        });
+
+        modelBuilder.Entity<Storylike>(entity =>
+        {
+            entity.HasKey(e => e.StoryLikeId).HasName("PK__storylik__C5A57881958BF4AE");
+
+            entity.ToTable("storylikes");
+
+            entity.Property(e => e.Timestamp)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+
+            entity.HasOne(d => d.Story).WithMany(p => p.Storylikes)
+                .HasForeignKey(d => d.StoryId)
+                .HasConstraintName("FK__storylike__Story__30AE302A");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Storylikes)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__storylike__UserI__2FBA0BF1");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__users__1788CC4C40204E7E");
+            entity.HasKey(e => e.UserId).HasName("PK__users__1788CC4C6427BC3E");
 
             entity.ToTable("users");
 
-            entity.HasIndex(e => e.Username, "UQ__users__536C85E499B52DDA").IsUnique();
+            entity.HasIndex(e => e.Username, "UQ__users__536C85E4B0D4066C").IsUnique();
 
-            entity.HasIndex(e => e.Email, "UQ__users__A9D10534B2DC2DD1").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__users__A9D10534D7ADED9E").IsUnique();
 
             entity.Property(e => e.Bio).HasMaxLength(500);
             entity.Property(e => e.Email).HasMaxLength(255);
