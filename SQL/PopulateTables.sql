@@ -1,5 +1,4 @@
 -- Insert users
-/*INSERT INTO users (Email, Bio, Username, ProfilePic, Password) VALUES*/
 INSERT INTO users (Email, Bio, Username, ProfilePic, Password) VALUES
 ('cristiano@email.com', 'Football legend', 'cristiano', 'images/profiles/cr7.jpg', 'pass123'),
 ('messi@email.com', 'GOAT in football', 'messi', 'images/profiles/messi.png', 'pass123'),
