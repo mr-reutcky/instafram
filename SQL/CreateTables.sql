@@ -55,7 +55,7 @@ CREATE TABLE follow (
 CREATE TABLE story (
     StoryId INT IDENTITY(1,1) PRIMARY KEY,
     Views INT DEFAULT 0,
-    LIkes INT DEFAULT 0,
+    Likes INT DEFAULT 0,
     UserId INT,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
     ExpirationTime DATETIME,
