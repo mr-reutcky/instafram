@@ -2,7 +2,7 @@
 using instafram.Models;
 
 namespace instafram.BLL {
-    class PostService {
+    public class PostService {
         private readonly PostRepository _postRepository;
 
         public PostService(PostRepository postRepository) {

@@ -2,7 +2,7 @@
 using instafram.DAL;
 
 namespace instafram.BLL {
-    class DmService {
+    public class DmService {
         private readonly DmRepository _dmRepository;
 
         public DmService(DmRepository dmRepository) {

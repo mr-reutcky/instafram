@@ -2,7 +2,7 @@
 using instafram.Models;
 
 namespace instafram.BLL {
-    class FollowService {
+    public class FollowService {
         private readonly FollowRepository _followRepository;
 
         public FollowService(FollowRepository followRepository) {

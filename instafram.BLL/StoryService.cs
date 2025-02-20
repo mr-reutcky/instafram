@@ -2,7 +2,7 @@
 using instafram.Models;
 
 namespace instafram.BLL {
-    class StoryService {
+    public class StoryService {
         private readonly StoryRepository _storyRepository;
 
         public StoryService(StoryRepository storyRepository) {

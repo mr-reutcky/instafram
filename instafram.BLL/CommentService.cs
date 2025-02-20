@@ -2,7 +2,7 @@
 using instafram.Models;
 
 namespace instafram.BLL {
-    class CommentService {
+    public class CommentService {
         private readonly CommentRepository _commentRepository;
 
         public CommentService(CommentRepository commentRepository) {

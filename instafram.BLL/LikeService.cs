@@ -2,7 +2,7 @@
 using instafram.Models;
 
 namespace instafram.BLL {
-    class LikeService {
+    public class LikeService {
         private readonly LikeRepository _likeRepository;
 
         public LikeService(LikeRepository likeRepository) {
