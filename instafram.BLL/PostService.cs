@@ -24,5 +24,9 @@ namespace instafram.BLL {
         public void DeletePost(Post post) {
             _postRepository.DeletePost(post);
         }
+
+        public Post CreatePost(Post post) {
+            return _postRepository.CreatePost(post);
+        }
     }
 }

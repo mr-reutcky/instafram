@@ -24,5 +24,9 @@ namespace instafram.BLL {
         public void DeleteStory(Story story) {
             _storyRepository.DeleteStory(story);
         }
+
+        public Story CreateStory(Story story) {
+            return _storyRepository.CreateStory(story);
+        }
     }
 }

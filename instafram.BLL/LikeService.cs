@@ -24,5 +24,9 @@ namespace instafram.BLL {
         public void DeleteLike(Like like) {
             _likeRepository.DeleteLike(like);
         }
+
+        public Like CreateLike(Like like) {
+            return _likeRepository.CreateLike(like);
+        }
     }
 }

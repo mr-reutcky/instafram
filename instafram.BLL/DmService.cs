@@ -24,5 +24,9 @@ namespace instafram.BLL {
         public void DeleteDm(Dm dm) {
             _dmRepository.DeleteDm(dm);
         }
+
+        public Dm CreateDm(Dm dm) {
+            return _dmRepository.CreateDm(dm);
+        }
     }
 }

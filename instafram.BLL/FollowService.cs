@@ -24,5 +24,9 @@ namespace instafram.BLL {
         public void DeleteFollow(Follow follow) {
             _followRepository.DeleteFollow(follow);
         }
+
+        public Follow CreateFollow(Follow follow) {
+            return _followRepository.CreateFollow(follow);
+        }
     }
 }

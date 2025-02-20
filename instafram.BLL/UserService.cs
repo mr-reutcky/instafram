@@ -24,5 +24,9 @@ namespace instafram.BLL {
         public void DeleteUser(User user) {
             _userRepository.DeleteUser(user);
         }
+
+        public User CreateUser(User user) {
+            return _userRepository.CreateUser(user);
+        }
     }
 }

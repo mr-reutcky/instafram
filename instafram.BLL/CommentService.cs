@@ -21,5 +21,9 @@ namespace instafram.BLL {
         public void DeleteComment(int id) {
             _commentRepository.DeleteComment(id);
         }
+
+        public Comment CreateComment(Comment comment) {
+            return _commentRepository.CreateComment(comment);
+        }
     }
 }
