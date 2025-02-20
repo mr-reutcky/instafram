@@ -84,3 +84,13 @@ CREATE TABLE likes (
     CONSTRAINT unique_like UNIQUE (UserId, PostId)
 );
 
+-- Create likes table
+CREATE TABLE Storylikes (
+    StoryLikeId INT IDENTITY(1,1) PRIMARY KEY,
+    UserId INT,
+    PostId INT,
+    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE,
+    FOREIGN KEY (PostId) REFERENCES post(PostId) ON DELETE CASCADE,
+    CONSTRAINT unique_like UNIQUE (UserId, PostId)
+);
