@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace instafram.Models;
+﻿namespace instafram.Models;
 
 public partial class Story
 {
     public int StoryId { get; set; }
 
     public int? Views { get; set; }
+
+    public int? Likes { get; set; }
 
     public int? UserId { get; set; }
 

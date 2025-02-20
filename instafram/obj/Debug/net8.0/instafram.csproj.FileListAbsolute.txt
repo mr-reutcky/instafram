@@ -152,3 +152,4 @@ C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram\obj\Debug\net8.0\instafram.pdb
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram\obj\Debug\net8.0\instafram.genruntimeconfig.cache
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram\obj\Debug\net8.0\ref\instafram.dll
+C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram\bin\Debug\net8.0\Controllers\Properties\launchSettings.json
