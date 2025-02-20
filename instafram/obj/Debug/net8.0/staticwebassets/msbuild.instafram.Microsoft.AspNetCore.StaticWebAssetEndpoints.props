@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\instafram.ebn0oim1u5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CraCJT/zdeIFUcPvJjYIBqkc\u002BOkJGPyArSiilSMF5TE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CraCJT/zdeIFUcPvJjYIBqkc\u002BOkJGPyArSiilSMF5TE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 14:52:26 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CraCJT/zdeIFUcPvJjYIBqkc\u002BOkJGPyArSiilSMF5TE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 16:20:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/instafram/instafram.ebn0oim1u5.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\instafram.ebn0oim1u5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ebn0oim1u5"},{"Name":"integrity","Value":"sha256-CraCJT/zdeIFUcPvJjYIBqkc\u002BOkJGPyArSiilSMF5TE="},{"Name":"label","Value":"_content/instafram/instafram.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CraCJT/zdeIFUcPvJjYIBqkc\u002BOkJGPyArSiilSMF5TE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 14:52:26 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CraCJT/zdeIFUcPvJjYIBqkc\u002BOkJGPyArSiilSMF5TE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 16:20:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/instafram/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

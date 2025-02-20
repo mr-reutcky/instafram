@@ -1,5 +1,6 @@
 -- Drop tables in the correct order to avoid foreign key errors
 DROP TABLE IF EXISTS likes;
+DROP TABLE IF EXISTS storylikes;
 DROP TABLE IF EXISTS DM;
 DROP TABLE IF EXISTS story;
 DROP TABLE IF EXISTS follow;
@@ -55,7 +56,6 @@ CREATE TABLE follow (
 CREATE TABLE story (
     StoryId INT IDENTITY(1,1) PRIMARY KEY,
     Views INT DEFAULT 0,
-    Likes INT DEFAULT 0,
     UserId INT,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
     ExpirationTime DATETIME,
@@ -81,16 +81,14 @@ CREATE TABLE likes (
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE,
     FOREIGN KEY (PostId) REFERENCES post(PostId) ON DELETE NO ACTION,
-    CONSTRAINT unique_like UNIQUE (UserId, PostId)
 );
 
--- Create likes table
+-- Create storylikes table
 CREATE TABLE storylikes (
     StoryLikeId INT IDENTITY(1,1) PRIMARY KEY,
     UserId INT,
-    PostId INT,
+    StoryId INT,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE,
-    FOREIGN KEY (PostId) REFERENCES post(PostId) ON DELETE NO ACTION,
-    CONSTRAINT unique_like UNIQUE (UserId, PostId)
+    FOREIGN KEY (StoryId) REFERENCES story(StoryId) ON DELETE NO ACTION,
 );
