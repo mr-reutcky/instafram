@@ -1,7 +1,15 @@
-DROP TABLE IF EXISTS likes, DM, story, following, comment, post, user;
+-- Drop tables in the correct order to avoid foreign key errors
+DROP TABLE IF EXISTS likes;
+DROP TABLE IF EXISTS DM;
+DROP TABLE IF EXISTS story;
+DROP TABLE IF EXISTS follow;
+DROP TABLE IF EXISTS comment;
+DROP TABLE IF EXISTS post;
+DROP TABLE IF EXISTS users;
 
-CREATE TABLE user (
-    UserId INT PRIMARY KEY AUTO_INCREMENT,
+-- Create users table
+CREATE TABLE users (
+    UserId INT IDENTITY(1,1) PRIMARY KEY,
     Email NVARCHAR(255) UNIQUE NOT NULL,
     Bio NVARCHAR(500),
     Username NVARCHAR(50) UNIQUE NOT NULL,
@@ -9,70 +17,69 @@ CREATE TABLE user (
     Password NVARCHAR(255) NOT NULL
 );
 
+-- Create post table
 CREATE TABLE post (
-    PostId INT PRIMARY KEY AUTO_INCREMENT,
+    PostId INT IDENTITY(1,1) PRIMARY KEY,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
     Views INT DEFAULT 0,
     Likes INT DEFAULT 0,
     UserId INT,
     Caption NVARCHAR(500),
     Picture NVARCHAR(255),
-    FOREIGN KEY (UserId) REFERENCES user(UserId) ON DELETE CASCADE
+    FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE
 );
 
+-- Create comment table
 CREATE TABLE comment (
-    CommentId INT PRIMARY KEY AUTO_INCREMENT,
+    CommentId INT IDENTITY(1,1) PRIMARY KEY,
     PostId INT,
     UserId INT,
     Comment NVARCHAR(500) NOT NULL,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (PostId) REFERENCES post(PostId) ON DELETE CASCADE,
-    FOREIGN KEY (UserId) REFERENCES user(UserId) ON DELETE CASCADE
+    FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE
 );
 
-CREATE TABLE following (
-    FollowingId INT PRIMARY KEY AUTO_INCREMENT,
+-- Create follow table
+CREATE TABLE follow (
+    FollowId INT IDENTITY(1,1) PRIMARY KEY,
     FollowerId INT,
     FolloweeId INT,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (FollowerId) REFERENCES user(UserId) ON DELETE CASCADE,
-    FOREIGN KEY (FolloweeId) REFERENCES user(UserId) ON DELETE CASCADE,
+    FOREIGN KEY (FollowerId) REFERENCES users(UserId) ON DELETE CASCADE,
+    FOREIGN KEY (FolloweeId) REFERENCES users(UserId) ON DELETE CASCADE,
     CONSTRAINT unique_follow UNIQUE (FollowerId, FolloweeId)
 );
 
-SET GLOBAL event_scheduler = ON;
-
+-- Create story table
 CREATE TABLE story (
-    StoryId INT PRIMARY KEY AUTO_INCREMENT,
+    StoryId INT IDENTITY(1,1) PRIMARY KEY,
     Views INT DEFAULT 0,
     UserId INT,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
-    ExpirationTime DATETIME GENERATED ALWAYS AS (Timestamp + INTERVAL 1 DAY) VIRTUAL,
-    FOREIGN KEY (UserId) REFERENCES user(UserId) ON DELETE CASCADE
+    ExpirationTime DATETIME,
+    FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE
 );
 
-CREATE EVENT delete_expired_stories
-ON SCHEDULE EVERY 1 MINUTE
-DO
-DELETE FROM story WHERE ExpirationTime <= NOW();
-
-
+-- Create DM table
 CREATE TABLE DM (
-    DMId INT PRIMARY KEY AUTO_INCREMENT,
+    DMId INT IDENTITY(1,1) PRIMARY KEY,
     SenderId INT,
     RecipientId INT,
     Message NVARCHAR(1000) NOT NULL,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (SenderId) REFERENCES user(UserId) ON DELETE CASCADE,
-    FOREIGN KEY (RecipientId) REFERENCES user(UserId) ON DELETE CASCADE
+    FOREIGN KEY (SenderId) REFERENCES users(UserId) ON DELETE CASCADE,
+    FOREIGN KEY (RecipientId) REFERENCES users(UserId) ON DELETE CASCADE
 );
 
+-- Create likes table
 CREATE TABLE likes (
-    LikeId INT PRIMARY KEY AUTO_INCREMENT,
+    LikeId INT IDENTITY(1,1) PRIMARY KEY,
     UserId INT,
     PostId INT,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (UserId) REFERENCES user(UserId) ON DELETE CASCADE,
+    FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE,
     FOREIGN KEY (PostId) REFERENCES post(PostId) ON DELETE CASCADE,
     CONSTRAINT unique_like UNIQUE (UserId, PostId)
 );
+
