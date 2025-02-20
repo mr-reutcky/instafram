@@ -3,11 +3,46 @@
   "WorkspaceRootPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DFCD214-A546-4F42-AA47-BDF5CA39A42F}|instafram.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram\\instafram.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2DFCD214-A546-4F42-AA47-BDF5CA39A42F}|instafram.csproj|solutionrelative:instafram.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{95899A16-FA08-49EC-9D36-16A232CCCF6F}|..\\instafram.BLL\\instafram.BLL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.bll\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95899A16-FA08-49EC-9D36-16A232CCCF6F}|..\\instafram.BLL\\instafram.BLL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.bll\\instafram.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7DC80F96-B1EC-4662-8930-BD212A6368D9}|..\\instafram.DAL\\instafram.DAL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.dal\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95899A16-FA08-49EC-9D36-16A232CCCF6F}|..\\instafram.BLL\\instafram.BLL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.bll\\storyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC80F96-B1EC-4662-8930-BD212A6368D9}|..\\instafram.DAL\\instafram.DAL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.dal\\storyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95899A16-FA08-49EC-9D36-16A232CCCF6F}|..\\instafram.BLL\\instafram.BLL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.bll\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95899A16-FA08-49EC-9D36-16A232CCCF6F}|..\\instafram.BLL\\instafram.BLL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.bll\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC80F96-B1EC-4662-8930-BD212A6368D9}|..\\instafram.DAL\\instafram.DAL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.dal\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95899A16-FA08-49EC-9D36-16A232CCCF6F}|..\\instafram.BLL\\instafram.BLL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.bll\\followservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC80F96-B1EC-4662-8930-BD212A6368D9}|..\\instafram.DAL\\instafram.DAL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.dal\\followrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95899A16-FA08-49EC-9D36-16A232CCCF6F}|..\\instafram.BLL\\instafram.BLL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.bll\\dmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95899A16-FA08-49EC-9D36-16A232CCCF6F}|..\\instafram.BLL\\instafram.BLL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.bll\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC80F96-B1EC-4662-8930-BD212A6368D9}|..\\instafram.DAL\\instafram.DAL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.dal\\dmrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC80F96-B1EC-4662-8930-BD212A6368D9}|..\\instafram.DAL\\instafram.DAL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.dal\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC80F96-B1EC-4662-8930-BD212A6368D9}|..\\instafram.DAL\\instafram.DAL.csproj|c:\\code\\mitt\\back-end\\relational database design\\assignments\\instafram\\instafram.dal\\instaframcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,32 +52,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 106,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "instafram",
-              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram\\instafram.csproj",
-              "RelativeDocumentMoniker": "instafram.csproj",
-              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram\\instafram.csproj",
-              "RelativeToolTip": "instafram.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-19T17:07:53.503Z",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\instafram.DAL\\UserRepository.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\UserRepository.cs",
+              "RelativeToolTip": "..\\instafram.DAL\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:41:23.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "instafram.BLL",
-              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\instafram.BLL.csproj",
-              "RelativeDocumentMoniker": "..\\instafram.BLL\\instafram.BLL.csproj",
-              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\instafram.BLL.csproj",
-              "RelativeToolTip": "..\\instafram.BLL\\instafram.BLL.csproj",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\instafram.BLL\\UserService.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\UserService.cs",
+              "RelativeToolTip": "..\\instafram.BLL\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:40:57.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StoryRepository.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\StoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\instafram.DAL\\StoryRepository.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\StoryRepository.cs",
+              "RelativeToolTip": "..\\instafram.DAL\\StoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:40:33.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoryService.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\StoryService.cs",
+              "RelativeDocumentMoniker": "..\\instafram.BLL\\StoryService.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\StoryService.cs",
+              "RelativeToolTip": "..\\instafram.BLL\\StoryService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:40:02.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\PostService.cs",
+              "RelativeDocumentMoniker": "..\\instafram.BLL\\PostService.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\PostService.cs",
+              "RelativeToolTip": "..\\instafram.BLL\\PostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:38:06.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LikeService.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\LikeService.cs",
+              "RelativeDocumentMoniker": "..\\instafram.BLL\\LikeService.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\LikeService.cs",
+              "RelativeToolTip": "..\\instafram.BLL\\LikeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:37:29.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LikeRepository.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\LikeRepository.cs",
+              "RelativeDocumentMoniker": "..\\instafram.DAL\\LikeRepository.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\LikeRepository.cs",
+              "RelativeToolTip": "..\\instafram.DAL\\LikeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:37:22.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FollowService.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\FollowService.cs",
+              "RelativeDocumentMoniker": "..\\instafram.BLL\\FollowService.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\FollowService.cs",
+              "RelativeToolTip": "..\\instafram.BLL\\FollowService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-19T17:07:42.336Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:36:26.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DmService.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\DmService.cs",
+              "RelativeDocumentMoniker": "..\\instafram.BLL\\DmService.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\DmService.cs",
+              "RelativeToolTip": "..\\instafram.BLL\\DmService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:32:36.397Z",
               "EditorCaption": ""
             },
             {
@@ -52,6 +178,70 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FollowRepository.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\FollowRepository.cs",
+              "RelativeDocumentMoniker": "..\\instafram.DAL\\FollowRepository.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\FollowRepository.cs",
+              "RelativeToolTip": "..\\instafram.DAL\\FollowRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:32:26.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DmRepository.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\DmRepository.cs",
+              "RelativeDocumentMoniker": "..\\instafram.DAL\\DmRepository.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\DmRepository.cs",
+              "RelativeToolTip": "..\\instafram.DAL\\DmRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:32:24.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "..\\instafram.DAL\\CommentRepository.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\CommentRepository.cs",
+              "RelativeToolTip": "..\\instafram.DAL\\CommentRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAywBwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:22:20.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\CommentService.cs",
+              "RelativeDocumentMoniker": "..\\instafram.BLL\\CommentService.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\CommentService.cs",
+              "RelativeToolTip": "..\\instafram.BLL\\CommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:21:12.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InstaframContext.cs",
+              "DocumentMoniker": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\InstaframContext.cs",
+              "RelativeDocumentMoniker": "..\\instafram.DAL\\InstaframContext.cs",
+              "ToolTip": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\InstaframContext.cs",
+              "RelativeToolTip": "..\\instafram.DAL\\InstaframContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T01:50:09.346Z"
             }
           ]
         }
