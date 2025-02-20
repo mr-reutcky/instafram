@@ -1,25 +1,26 @@
 -- Insert users
 INSERT INTO users (Email, Bio, Username, ProfilePic, Password) VALUES
-('cristiano@email.com', 'Football legend', 'cristiano', NULL, 'pass123'),
-('messi@email.com', 'GOAT in football', 'messi', NULL, 'pass123'),
-('serena@email.com', 'Tennis icon', 'serenawilliams', NULL, 'pass123'),
-('aplasticplant@email.com', 'Lover of greenery', 'aplasticplant', NULL, 'pass123'),
-('moviebuff@email.com', 'Quotes all day', 'movie_quotes', NULL, 'pass123'),
-('partylover@email.com', 'Life of the party!', 'lifeoftheparty', NULL, 'pass123'),
-('chatty@email.com', 'Talks a lot', 'that_talkative_user', NULL, 'pass123'),
-('naturelover@email.com', 'Nature enthusiast', 'nature_lover', NULL, 'pass123'),
-('techguru@email.com', 'Tech nerd', 'tech_guru', NULL, 'pass123'),
-('foodie@email.com', 'Food reviewer', 'food_critic', NULL, 'pass123'),
-('gamer@email.com', 'Pro gamer', 'game_master', NULL, 'pass123'),
-('artist@email.com', 'Painter and designer', 'art_lover', NULL, 'pass123'),
-('musician@email.com', 'Loves music', 'rockstar', NULL, 'pass123'),
-('traveler@email.com', 'World traveler', 'globetrotter', NULL, 'pass123'),
-('writer@email.com', 'Writes fiction', 'storyteller', NULL, 'pass123'),
-('teacher@email.com', 'Passionate educator', 'edu_wizard', NULL, 'pass123'),
-('developer@email.com', 'Software engineer', 'code_ninja', NULL, 'pass123'),
-('photographer@email.com', 'Capturing moments', 'photo_sniper', NULL, 'pass123'),
-('fitness@email.com', 'Gym rat', 'fit_freak', NULL, 'pass123'),
-('scientist@email.com', 'Loves experiments', 'science_geek', NULL, 'pass123');
+INSERT INTO users (Email, Bio, Username, ProfilePic, Password) VALUES
+('cristiano@email.com', 'Football legend', 'cristiano', 'images/profiles/cr7.jpg', 'pass123'),
+('messi@email.com', 'GOAT in football', 'messi', 'images/profiles/messi.png', 'pass123'),
+('serena@email.com', 'Tennis icon', 'serenawilliams', 'images/profiles/serena.jpg', 'pass123'),
+('aplasticplant@email.com', 'Lover of greenery', 'aplasticplant', 'images/profiles/plant.png', 'pass123'),
+('moviebuff@email.com', 'Quotes all day', 'movie_quotes', 'images/profiles/movie.jpg', 'pass123'),
+('partylover@email.com', 'Life of the party!', 'lifeoftheparty', 'images/profiles/party.jpg', 'pass123'),
+('chatty@email.com', 'Talks a lot', 'that_talkative_user', 'images/profiles/chatty.png', 'pass123'),
+('naturelover@email.com', 'Nature enthusiast', 'nature_lover', 'images/profiles/nature.jpg', 'pass123'),
+('techguru@email.com', 'Tech nerd', 'tech_guru', 'images/profiles/tech.png', 'pass123'),
+('foodie@email.com', 'Food reviewer', 'food_critic', 'images/profiles/food.jpg', 'pass123'),
+('gamer@email.com', 'Pro gamer', 'game_master', 'images/profiles/gamer.png', 'pass123'),
+('artist@email.com', 'Painter and designer', 'art_lover', 'images/profiles/art.jpg', 'pass123'),
+('musician@email.com', 'Loves music', 'rockstar', 'images/profiles/music.png', 'pass123'),
+('traveler@email.com', 'World traveler', 'globetrotter', 'images/profiles/travel.jpg', 'pass123'),
+('writer@email.com', 'Writes fiction', 'storyteller', 'images/profiles/writer.jpg', 'pass123'),
+('teacher@email.com', 'Passionate educator', 'edu_wizard', 'images/profiles/teacher.png', 'pass123'),
+('developer@email.com', 'Software engineer', 'code_ninja', 'images/profiles/dev.jpg', 'pass123'),
+('photographer@email.com', 'Capturing moments', 'photo_sniper', 'images/profiles/photo.jpg', 'pass123'),
+('fitness@email.com', 'Gym rat', 'fit_freak', 'images/profiles/fitness.png', 'pass123'),
+('scientist@email.com', 'Loves experiments', 'science_geek', 'images/profiles/science.jpg', 'pass123');
 
 -- Insert follows (ensuring Cristiano has at least 15 followers)
 INSERT INTO follow (FollowerId, FolloweeId, Timestamp) VALUES
