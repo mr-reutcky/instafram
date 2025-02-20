@@ -85,7 +85,7 @@ CREATE TABLE likes (
 );
 
 -- Create likes table
-CREATE TABLE Storylikes (
+CREATE TABLE storylikes (
     StoryLikeId INT IDENTITY(1,1) PRIMARY KEY,
     UserId INT,
     PostId INT,
