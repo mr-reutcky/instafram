@@ -8,12 +8,11 @@ namespace instafram.Controllers {
 
         private readonly PostService _postService;
         private readonly CommentService _commentService;
-        private int _commentId;
-
-        public PostController(PostService postService, CommentService commentService) {
+        private readonly LikeService _likeService;
+        public PostController(PostService postService, CommentService commentService, LikeService likeService) {
             _postService = postService;
             _commentService = commentService;
-            _commentId = LastCommentID();
+            _likeService = likeService;
         }
         public IActionResult Index() {
             List<Post> post = _postService.GetPosts();
@@ -27,6 +26,28 @@ namespace instafram.Controllers {
 
             return View(postComments);
         }
+        public IActionResult LikePost(int Id) {
+            Post post = _postService.GetPost(Id);
+
+            if (post == null) {
+                return NotFound(); 
+            }
+
+            Like like = new Like()
+            {
+                PostId = Id,
+                UserId = 1, 
+                Timestamp = DateTime.Now,
+            };
+
+             post.Likes++;
+
+            _postService.UpdatePost(post);
+            _likeService.CreateLike(like);
+
+            return RedirectToAction("Index");
+        }
+
 
         [HttpGet]
         public IActionResult CommentForm(int Id) {
@@ -39,21 +60,10 @@ namespace instafram.Controllers {
        [HttpPost]
         public IActionResult CommentForm(Comment comment) {
             if (ModelState.IsValid) {
-               // comment.CommentId = _commentId++;
                 _commentService.CreateComment(comment);
                 return Redirect("/Post/Index");
             }
             return View(comment);
         }
-        
-        private int LastCommentID() {
-            int lastId = _commentService.GetComments()
-                .OrderByDescending(c => c.CommentId) 
-                .Select(c => c.CommentId)
-                .FirstOrDefault();
-
-            return lastId + 1; 
-        }
-
     }
 }
