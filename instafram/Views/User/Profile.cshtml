@@ -1,0 +1,45 @@
+﻿@{
+    var user = ViewData["User"] as User;
+    var posts = ViewData["Posts"] as List<Post>;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="../Images/@user.ProfilePic" class="rounded-circle img-fluid border" alt="Profile Picture">
+        </div>
+
+        <div class="col-md-8">
+            <h2>@user.Username</h2>
+            <p>@user.Bio</p>
+            <p>@user.Email</p>
+        </div>
+    </div>
+
+    <h3>Posts</h3>
+    <div class="row">
+        @if (posts != null && posts.Any()) {
+            foreach (Post post in posts) {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="@post.Picture" alt="Post Image" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">@post.Caption</h5>
+                            @if (post.Timestamp.HasValue) {
+                                <p class="card-text">@post.Timestamp.Value.ToString("MMMM dd, yyyy")</p>
+                            } else {
+                                <p class="card-text">Timestamp not available</p>
+                            }
+                            <div class="flex flex-between">
+                                <p class="card-text">@post.Likes Likes</p>
+                                <a><i class="fa-solid fa-thumbs-up"></i></a> @* Does not work yet *@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        } else {
+            <p>No posts available.</p>
+        }
+    </div>
+</div>

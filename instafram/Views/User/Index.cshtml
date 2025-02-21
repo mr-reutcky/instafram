@@ -1,9 +1,24 @@
 ﻿@model IEnumerable<instafram.Models.User>
 
-<h2>Users List</h2>
+@{
+    ViewData["Title"] = "Users";
+}
 
-<ul>
-    @foreach (User user in Model) {
-        <li>@user.Username</li>
-    }
-</ul>
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Select a User</h1>
+
+    <div class="row">
+        @foreach (User user in Model) {
+            <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
+                <div class="card shadow-sm border-0">
+                    <img src="../Images/@user.ProfilePic" class="card-img-top rounded-circle mx-auto d-block" alt="Profile Picture" style="width: 150px; height: 150px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@user.Username</h5>
+                        <p class="card-text text-muted">@user.Bio</p>
+                        <a href="@Url.Action("Profile", "User", new { id = user.UserId })" class="btn btn-primary btn-block">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
