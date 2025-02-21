@@ -32,7 +32,8 @@
                             }
                             <div class="flex flex-between">
                                 <p class="card-text">@post.Likes Likes</p>
-                                <a><i class="fa-solid fa-thumbs-up"></i></a> @* Does not work yet *@
+                                <a href="/Post/LikePost/@post.PostId"><i class="fa-solid fa-thumbs-up"></i></a>
+                                <a href="/Post/Comment/@post.PostId">Comment</a>
                             </div>
                         </div>
                     </div>
