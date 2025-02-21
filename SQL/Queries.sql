@@ -20,28 +20,31 @@ ORDER BY TotalViews DESC
 LIMIT 1;
 
 -- Query 8
+-- Not sure if this is correct
 WITH StoryLikes AS (
     SELECT sl.UserId, COUNT(*) AS LikesCount
     FROM storylikes sl
-    JOIN story s ON sl.StoryId = s.Id
-    WHERE s.UserId = (SELECT Id FROM users WHERE Username = 'movie_quotes')
+    JOIN story s ON sl.StoryId = s.StoryId
+    WHERE s.UserId = (SELECT UserId FROM users WHERE Username = 'movie_quotes')
     GROUP BY sl.UserId
 ),
 DMs AS (
-    SELECT SenderId AS UserId, COUNT(*) AS DMCount FROM DM 
-    WHERE RecipientId = (SELECT Id FROM users WHERE Username = 'movie_quotes')
+    SELECT SenderId AS UserId, COUNT(*) AS DMCount 
+    FROM DM 
+    WHERE RecipientId = (SELECT UserId FROM users WHERE Username = 'movie_quotes')
     GROUP BY SenderId
     UNION ALL
-    SELECT RecipientId AS UserId, COUNT(*) AS DMCount FROM DM 
-    WHERE SenderId = (SELECT Id FROM users WHERE Username = 'movie_quotes')
+    SELECT RecipientId AS UserId, COUNT(*) AS DMCount 
+    FROM DM 
+    WHERE SenderId = (SELECT UserId FROM users WHERE Username = 'movie_quotes')
     GROUP BY RecipientId
 )
 SELECT sl.UserId, sl.LikesCount, COALESCE(SUM(dm.DMCount), 0) AS DMCount
 FROM StoryLikes sl
 LEFT JOIN DMs dm ON sl.UserId = dm.UserId
 GROUP BY sl.UserId, sl.LikesCount
-ORDER BY sl.LikesCount DESC, DMCount ASC
-LIMIT 1;
+ORDER BY sl.LikesCount DESC, DMCount ASC;
+
 
 -- Query 9
 SELECT DISTINCT s.*

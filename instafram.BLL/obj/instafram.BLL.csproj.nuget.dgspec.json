@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.BLL\\instafram.BLL.csproj": {}
+    "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\instafram.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.BLL\\instafram.BLL.csproj": {
+    "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\instafram.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.BLL\\instafram.BLL.csproj",
+        "projectUniqueName": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\instafram.BLL.csproj",
         "projectName": "instafram.BLL",
-        "projectPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.BLL\\instafram.BLL.csproj",
-        "packagesPath": "C:\\Users\\foxchan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.BLL\\obj\\",
+        "projectPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\instafram.BLL.csproj",
+        "packagesPath": "C:\\Users\\sreut\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\foxchan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sreut\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.DAL\\instafram.DAL.csproj": {
-                "projectPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.DAL\\instafram.DAL.csproj"
+              "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\instafram.DAL.csproj": {
+                "projectPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\instafram.DAL.csproj"
               },
-              "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.Models\\instafram.Models.csproj": {
-                "projectPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.Models\\instafram.Models.csproj"
+              "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.Models\\instafram.Models.csproj": {
+                "projectPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.Models\\instafram.Models.csproj"
               }
             }
           }
@@ -51,7 +52,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -72,24 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.DAL\\instafram.DAL.csproj": {
+    "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\instafram.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.DAL\\instafram.DAL.csproj",
+        "projectUniqueName": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\instafram.DAL.csproj",
         "projectName": "instafram.DAL",
-        "projectPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.DAL\\instafram.DAL.csproj",
-        "packagesPath": "C:\\Users\\foxchan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.DAL\\obj\\",
+        "projectPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\instafram.DAL.csproj",
+        "packagesPath": "C:\\Users\\sreut\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\foxchan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sreut\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,14 +99,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.Models\\instafram.Models.csproj": {
-                "projectPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.Models\\instafram.Models.csproj"
+              "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.Models\\instafram.Models.csproj": {
+                "projectPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.Models\\instafram.Models.csproj"
               }
             }
           }
@@ -120,7 +122,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -159,24 +161,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.Models\\instafram.Models.csproj": {
+    "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.Models\\instafram.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.Models\\instafram.Models.csproj",
+        "projectUniqueName": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.Models\\instafram.Models.csproj",
         "projectName": "instafram.Models",
-        "projectPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.Models\\instafram.Models.csproj",
-        "packagesPath": "C:\\Users\\foxchan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\foxchan\\OneDrive\\Desktop\\Code folder\\Back End Class\\Rational Database Design\\Assignment\\Final Project\\instafram.Models\\obj\\",
+        "projectPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.Models\\instafram.Models.csproj",
+        "packagesPath": "C:\\Users\\sreut\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\mitt\\back-end\\Relational Database Design\\Assignments\\instafram\\instafram.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\foxchan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sreut\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -185,6 +187,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -203,7 +206,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -224,7 +227,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
