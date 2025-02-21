@@ -5,13 +5,15 @@ using instafram.Models;
 
 namespace instafram.Controllers {
     public class PostController : Controller {
-        private static PostRepository _postRepository = new PostRepository(new InstaframContext());
-        private static PostService _postService = new PostService(_postRepository);
 
-        public PostController() {
+        private readonly PostService _postService;
+
+        public PostController(PostService postService) {
+            _postService = postService;
         }
         public IActionResult Index() {
-            return View(_postService.GetPosts());
+            List<Post> post = _postService.GetPosts();
+            return View(post);
         }
     }
 }
