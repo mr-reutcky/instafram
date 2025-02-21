@@ -1,0 +1,18 @@
+﻿@model Post;
+
+<div>
+	<img src="../Images/img11.jpg"/>
+	@if (Model.Views != null) {
+		<p>Views: @Model.Views</p>
+	} else {
+		<p>Views: 0</p>
+	}
+	<p>Likes @Model.Likes</p>
+	<p>Timestamp: @Model.Timestamp</p>
+	<p>Caption: @Model.Caption</p>
+</div>
+
+<div>
+	<a href="/Post/LikePost/@Model.PostId">Like</a>
+	<a href="/Post/Comment/@Model.PostId">Comment</a>
+</div>

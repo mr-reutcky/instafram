@@ -1,0 +1,13 @@
+﻿@model List<Comment>
+
+	<h1>Comment to that post</h1>
+@foreach (Comment comment in Model) {
+	<div>
+		<p>@comment.Comment1</p>
+		<p>@comment.Timestamp</p>
+	</div>
+	<br />
+}
+
+<br />
+<a href="/Post/CommentForm/@ViewBag.PostId">New Comment to this post</a>

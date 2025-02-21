@@ -1,0 +1,13 @@
+﻿@model Comment
+
+<h1>Creating new comments</h1>
+<form asp-action="CommentForm">
+	<input type="hidden" asp-for="PostId" value="@ViewBag.PostID" />
+	<input type="hidden" asp-for="UserId" value="@ViewBag.PlayerId" />
+	<input type="hidden" asp-for="Timestamp" value=" @DateTime.Now" />
+	<div>
+		<label asp-for="Comment1"></label>
+		<input asp-for="Comment1" />
+	</div>
+	<button type="submit">Submit comment</button>
+</form>
