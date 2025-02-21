@@ -1,0 +1,35 @@
+﻿@model List<instafram.Models.Dm>
+
+<h2>Direct Messages</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sender</th>
+            <th>Recipient</th>
+            <th>Message</th>
+            <th>Timestamp</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dm in Model)
+        {
+            <tr>
+                <td>@dm.Sender?.Username</td>
+                <td>@dm.Recipient?.Username</td>
+                <td>@dm.Message</td>
+                <td>@dm.Timestamp</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@dm.Dmid">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@dm.Dmid">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@dm.Dmid">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Create">Create New DM</a>
+</p>
