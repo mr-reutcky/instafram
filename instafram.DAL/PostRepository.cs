@@ -16,6 +16,10 @@ namespace instafram.DAL {
             return _context.Posts.Find(id);
         }
 
+        public List<Post> GetPostsByUserId(int userId) {
+            return _context.Posts.Where(p => p.UserId == userId).ToList();
+        }
+
         public Post UpdatePost(Post post) {
             _context.Posts.Update(post);
             _context.SaveChanges();

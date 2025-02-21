@@ -17,6 +17,10 @@ namespace instafram.BLL {
             return _postRepository.GetPostById(id);
         }
 
+        public List<Post> GetPostsByUserId(int userId) {
+            return _postRepository.GetPostsByUserId(userId);
+        }
+
         public Post UpdatePost(Post post) {
             return _postRepository.UpdatePost(post);
         }

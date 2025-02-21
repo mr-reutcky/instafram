@@ -1,25 +1,27 @@
 -- Insert users
 INSERT INTO users (Email, Bio, Username, ProfilePic, Password) VALUES
-('cristiano@email.com', 'Football legend', 'cristiano', 'images/profiles/cr7.jpg', 'pass123'),
-('messi@email.com', 'GOAT in football', 'messi', 'images/profiles/messi.png', 'pass123'),
-('serena@email.com', 'Tennis icon', 'serenawilliams', 'images/profiles/serena.jpg', 'pass123'),
-('aplasticplant@email.com', 'Lover of greenery', 'aplasticplant', 'images/profiles/plant.png', 'pass123'),
-('moviebuff@email.com', 'Quotes all day', 'movie_quotes', 'images/profiles/movie.jpg', 'pass123'),
-('partylover@email.com', 'Life of the party!', 'lifeoftheparty', 'images/profiles/party.jpg', 'pass123'),
-('chatty@email.com', 'Talks a lot', 'that_talkative_user', 'images/profiles/chatty.png', 'pass123'),
-('naturelover@email.com', 'Nature enthusiast', 'nature_lover', 'images/profiles/nature.jpg', 'pass123'),
-('techguru@email.com', 'Tech nerd', 'tech_guru', 'images/profiles/tech.png', 'pass123'),
-('foodie@email.com', 'Food reviewer', 'food_critic', 'images/profiles/food.jpg', 'pass123'),
-('gamer@email.com', 'Pro gamer', 'game_master', 'images/profiles/gamer.png', 'pass123'),
-('artist@email.com', 'Painter and designer', 'art_lover', 'images/profiles/art.jpg', 'pass123'),
-('musician@email.com', 'Loves music', 'rockstar', 'images/profiles/music.png', 'pass123'),
-('traveler@email.com', 'World traveler', 'globetrotter', 'images/profiles/travel.jpg', 'pass123'),
-('writer@email.com', 'Writes fiction', 'storyteller', 'images/profiles/writer.jpg', 'pass123'),
-('teacher@email.com', 'Passionate educator', 'edu_wizard', 'images/profiles/teacher.png', 'pass123'),
-('developer@email.com', 'Software engineer', 'code_ninja', 'images/profiles/dev.jpg', 'pass123'),
-('photographer@email.com', 'Capturing moments', 'photo_sniper', 'images/profiles/photo.jpg', 'pass123'),
-('fitness@email.com', 'Gym rat', 'fit_freak', 'images/profiles/fitness.png', 'pass123'),
-('scientist@email.com', 'Loves experiments', 'science_geek', 'images/profiles/science.jpg', 'pass123');
+('cristiano@email.com', 'A football legend known for his incredible skills, record-breaking goals, and dedication to the sport.', 'cristiano', 'User1.jpg', 'pass123'),
+('messi@email.com', 'Often regarded as the GOAT in football, known for his dribbling, vision, and goal-scoring ability.', 'messi', 'User2.jpg', 'pass123'),
+('serena@email.com', 'A tennis icon with an unmatched legacy, inspiring generations with her strength and determination.', 'serenawilliams', 'User3.jpg', 'pass123'),
+('aplasticplant@email.com', 'A passionate lover of greenery who collects and cares for plants, both real and artificial.', 'aplasticplant', 'User4.jpg', 'pass123'),
+('moviebuff@email.com', 'Loves watching movies and quoting famous lines from classics and the latest blockbusters.', 'movie_quotes', 'User5.jpg', 'pass123'),
+('partylover@email.com', 'Always the life of the party, bringing energy, fun, and unforgettable moments to every event.', 'lifeoftheparty', 'User6.jpg', 'pass123'),
+('chatty@email.com', 'A social butterfly who loves talking, sharing stories, and making new friends.', 'that_talkative_user', 'User7.jpg', 'pass123'),
+('naturelover@email.com', 'A dedicated nature enthusiast who enjoys hiking, camping, and exploring the great outdoors.', 'nature_lover', 'User8.jpg', 'pass123'),
+('techguru@email.com', 'A tech nerd who stays updated with the latest innovations, gadgets, and software trends.', 'tech_guru', 'User9.jpg', 'pass123'),
+('foodie@email.com', 'A food critic and enthusiast who loves discovering new flavors and reviewing different cuisines.', 'food_critic', 'User10.jpg', 'pass123'),
+('gamer@email.com', 'A hardcore gamer who enjoys competitive play, strategy, and exploring vast virtual worlds.', 'game_master', 'User11.jpg', 'pass123'),
+('artist@email.com', 'A creative painter and designer who expresses emotions through colors and artistic strokes.', 'art_lover', 'User12.jpg', 'pass123'),
+('musician@email.com', 'A passionate musician who loves creating, performing, and listening to all kinds of music.', 'rockstar', 'User13.jpg', 'pass123'),
+('traveler@email.com', 'An adventurer and world traveler, always exploring new cultures, places, and experiences.', 'globetrotter', 'User14.jpg', 'pass123'),
+('writer@email.com', 'A storyteller with a love for crafting engaging fiction, poetry, and thought-provoking articles.', 'storyteller', 'User15.jpg', 'pass123'),
+('teacher@email.com', 'A dedicated educator who loves sharing knowledge and inspiring the next generation.', 'edu_wizard', 'User16.jpg', 'pass123'),
+('developer@email.com', 'A software engineer with a passion for coding, problem-solving, and building innovative applications.', 'code_ninja', 'User17.jpg', 'pass123'),
+('photographer@email.com', 'A creative photographer capturing life’s most beautiful moments through the lens.', 'photo_sniper', 'User18.jpg', 'pass123'),
+('fitness@email.com', 'A fitness enthusiast who believes in health, strength, and pushing limits in the gym.', 'fit_freak', 'User19.jpg', 'pass123'),
+('scientist@email.com', 'A science geek who enjoys conducting experiments and exploring the mysteries of the universe.', 'science_geek', 'User20.jpg', 'pass123');
+
+
 
 -- Insert follows (ensuring Cristiano has at least 15 followers)
 INSERT INTO follow (FollowerId, FolloweeId, Timestamp) VALUES
@@ -46,16 +48,17 @@ INSERT INTO follow (FollowerId, FolloweeId, Timestamp) VALUES
 (6, 5, CURRENT_TIMESTAMP);
 
 -- Insert posts (3 per user)
-INSERT INTO post (UserId, Caption, Picture, Timestamp) VALUES
-(1, 'Training hard!', 'post1.jpg', CURRENT_TIMESTAMP),
-(1, 'Game day!', 'post2.jpg', CURRENT_TIMESTAMP),
-(1, 'Victory!', 'post3.jpg', CURRENT_TIMESTAMP),
-(2, 'Practice session!', 'post4.jpg', CURRENT_TIMESTAMP),
-(2, 'Match highlights!', 'post5.jpg', CURRENT_TIMESTAMP),
-(2, 'Family time!', 'post6.jpg', CURRENT_TIMESTAMP),
-(3, 'Tennis training!', 'post7.jpg', CURRENT_TIMESTAMP),
-(3, 'Grand Slam memories!', 'post8.jpg', CURRENT_TIMESTAMP),
-(3, 'Winning moment!', 'post9.jpg', CURRENT_TIMESTAMP);
+INSERT INTO post (UserId, Caption, Picture, Timestamp, Likes) VALUES
+(1, 'Training hard!', 'post1.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(1, 'Game day!', 'post2.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(1, 'Victory!', 'post3.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(2, 'Practice session!', 'post4.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(2, 'Match highlights!', 'post5.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(2, 'Family time!', 'post6.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(3, 'Tennis training!', 'post7.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(3, 'Grand Slam memories!', 'post8.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(3, 'Winning moment!', 'post9.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000));
+
 
 -- Insert likes (15-20 per post, randomized users)
 INSERT INTO likes (UserId, PostId, Timestamp) VALUES
