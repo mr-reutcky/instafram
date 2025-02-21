@@ -41,7 +41,7 @@ namespace instafram.Controllers {
             };
 
              post.Likes++;
-
+             post.Views++;
             _postService.UpdatePost(post);
             _likeService.CreateLike(like);
 

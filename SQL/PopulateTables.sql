@@ -1,3 +1,4 @@
+
 -- Insert users
 INSERT INTO users (Email, Bio, Username, ProfilePic, Password) VALUES
 ('cristiano@email.com', 'A football legend known for his incredible skills, record-breaking goals, and dedication to the sport.', 'cristiano', 'User1.jpg', 'pass123'),
