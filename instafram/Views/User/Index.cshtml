@@ -1,0 +1,9 @@
+﻿@model IEnumerable<instafram.Models.User>
+
+<h2>Users List</h2>
+
+<ul>
+    @foreach (User user in Model) {
+        <li>@user.Username</li>
+    }
+</ul>
