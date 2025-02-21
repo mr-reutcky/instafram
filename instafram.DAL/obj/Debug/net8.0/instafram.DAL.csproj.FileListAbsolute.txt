@@ -16,3 +16,21 @@ C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.pdb
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.genruntimeconfig.cache
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram.DAL\obj\Debug\net8.0\ref\instafram.DAL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\bin\Debug\net8.0\instafram.DAL.deps.json
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\bin\Debug\net8.0\instafram.DAL.runtimeconfig.json
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\bin\Debug\net8.0\instafram.DAL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\bin\Debug\net8.0\instafram.DAL.pdb
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\bin\Debug\net8.0\instafram.Models.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\bin\Debug\net8.0\instafram.Models.pdb
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.csproj.AssemblyReference.cache
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.AssemblyInfoInputs.cache
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.AssemblyInfo.cs
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.csproj.CoreCompileInputs.cache
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.sourcelink.json
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafra.B8EBA51F.Up2Date
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\refint\instafram.DAL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.pdb
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.genruntimeconfig.cache
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\ref\instafram.DAL.dll

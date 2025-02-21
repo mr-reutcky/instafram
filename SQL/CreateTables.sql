@@ -59,6 +59,7 @@ CREATE TABLE story (
     UserId INT,
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
     ExpirationTime DATETIME,
+	Picture NVARCHAR(255),
     FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE
 );
 

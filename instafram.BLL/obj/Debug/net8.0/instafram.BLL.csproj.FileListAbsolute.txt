@@ -16,3 +16,21 @@ C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram.BLL\obj\Debug\net8.0\refint\instafram.BLL.dll
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.pdb
 C:\code\mitt\back-end\Relational Database Design\Assignments\instafram\instafram.BLL\obj\Debug\net8.0\ref\instafram.BLL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\bin\Debug\net8.0\instafram.BLL.deps.json
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\bin\Debug\net8.0\instafram.BLL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\bin\Debug\net8.0\instafram.BLL.pdb
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\bin\Debug\net8.0\instafram.DAL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\bin\Debug\net8.0\instafram.Models.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\bin\Debug\net8.0\instafram.DAL.pdb
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\bin\Debug\net8.0\instafram.Models.pdb
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.csproj.AssemblyReference.cache
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.AssemblyInfoInputs.cache
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.AssemblyInfo.cs
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.csproj.CoreCompileInputs.cache
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.sourcelink.json
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafra.8172E669.Up2Date
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\refint\instafram.BLL.dll
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.pdb
+C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\ref\instafram.BLL.dll
