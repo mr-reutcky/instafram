@@ -1,10 +1,48 @@
 -- Query 1
+SELECT u.Username
+FROM follow f
+JOIN users u ON f.FollowerId = u.UserId
+WHERE f.FolloweeId = (SELECT UserId FROM users WHERE Username = 'cristiano');
 
 -- Query 2
+SELECT p.PostId, p.Timestamp AS PostTimestamp, p.Caption, p.Picture, 'Post' AS Type
+FROM post p
+JOIN follow f ON p.UserId = f.FolloweeId
+JOIN users u ON f.FollowerId = u.UserId
+WHERE u.Username = 'messi' 
+    AND p.Timestamp >= DATEADD(WEEK, -1, GETDATE())
+SELECT s.StoryId, s.Timestamp AS StoryTimestamp, s.Picture, NULL AS Caption, 'Story' AS Type
+FROM story s
+JOIN follow f ON s.UserId = f.FolloweeId
+JOIN users u ON f.FollowerId = u.UserId
+WHERE u.Username = 'messi' 
+    AND s.Timestamp >= DATEADD(WEEK, -1, GETDATE())
+ORDER BY PostTimestamp DESC, StoryTimestamp DESC;
 
 -- Query 3
+SELECT p.PostId, p.Timestamp AS PostTimestamp, p.Caption, p.Picture, 'Post' AS Type
+FROM post p
+LEFT JOIN likes l ON p.PostId = l.PostId
+LEFT JOIN comment c ON p.PostId = c.PostId
+JOIN users u ON (l.UserId = u.UserId OR c.UserId = u.UserId)
+WHERE u.Username = 'serenawilliams'
+
+SELECT s.StoryId, s.Timestamp AS StoryTimestamp, s.Picture, NULL AS Caption, 'Story' AS Type
+FROM story s
+LEFT JOIN storylikes sl ON s.StoryId = sl.StoryId
+LEFT JOIN comment c ON s.StoryId = c.PostId
+JOIN users u ON (sl.UserId = u.UserId OR c.UserId = u.UserId)
+WHERE u.Username = 'serenawilliams'
+ORDER BY PostTimestamp DESC, StoryTimestamp DESC;
 
 -- Query 4
+SELECT u.UserId, u.Username, COUNT(f.FollowerId) AS FollowerCount
+FROM users u
+JOIN follow f ON u.UserId = f.FolloweeId
+WHERE u.ProfilePic IS NULL
+GROUP BY u.UserId, u.Username
+ORDER BY FollowerCount DESC
+LIMIT 5;
 
 -- Query 5
 
