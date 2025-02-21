@@ -34,3 +34,21 @@ C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database D
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\refint\instafram.BLL.dll
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\instafram.BLL.pdb
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.BLL\obj\Debug\net8.0\ref\instafram.BLL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\bin\Debug\net8.0\instafram.BLL.deps.json
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\bin\Debug\net8.0\instafram.BLL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\bin\Debug\net8.0\instafram.BLL.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\bin\Debug\net8.0\instafram.DAL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\bin\Debug\net8.0\instafram.Models.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\bin\Debug\net8.0\instafram.DAL.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\bin\Debug\net8.0\instafram.Models.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.csproj.AssemblyReference.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.AssemblyInfoInputs.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.AssemblyInfo.cs
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.csproj.CoreCompileInputs.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.sourcelink.json
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafra.8172E669.Up2Date
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\refint\instafram.BLL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\instafram.BLL.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.BLL\obj\Debug\net8.0\ref\instafram.BLL.dll

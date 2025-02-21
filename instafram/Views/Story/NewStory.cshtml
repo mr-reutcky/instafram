@@ -1,0 +1,28 @@
+﻿@model Story
+
+<form asp-action="NewStory">
+	<input type="hidden" asp-for="Views" value="0" />
+    <input type="hidden" asp-for="LikeStory" value="0" />
+	<input type="hidden" asp-for="UserId" value="1" />
+
+
+    <label asp-for="LikeStory">Choose a picture:</label>
+    <select asp-for="LikeStory">
+        <option value="../Images/img1.jpg">Option 1</option>
+        <option value="../Images/img2.jpg">Option 2</option>
+        <option value="../Images/img3.jpg">Option 3</option>
+        <option value="../Images/img4.jpg">Option 4</option>
+        <option value="../Images/img5.jpg">Option 5</option>
+        <option value="../Images/img6.jpg">Option 6</option>
+        <option value="../Images/img7.jpg">Option 7</option>
+        <option value="../Images/img8.jpg">Option 8</option>
+        <option value="../Images/img9.jpg">Option 9</option>
+        <option value="../Images/img10.jpg">Option 10</option>
+        <option value="../Images/img11.jpg">Option 11</option>
+        <option value="../Images/img12.jpg">Option 12</option>
+        <option value="../Images/img13.jpg">Option 13</option>
+        <option value="../Images/img14.jpg">Option 14</option>
+        <option value="../Images/img15.jpg">Option 15</option>
+	</select>
+    <button type="submit">Create NEw post</button>
+</form>

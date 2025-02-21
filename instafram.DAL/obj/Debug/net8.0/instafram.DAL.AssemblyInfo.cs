@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("instafram.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8363d90a3fcc49a58b60e84a4afde7b8b2fc39e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+525b969b22f816328d4e31c88bb4791fcef8cf2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("instafram.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("instafram.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

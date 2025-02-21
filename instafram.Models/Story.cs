@@ -15,6 +15,7 @@ public partial class Story
 
     public DateTime? ExpirationTime { get; set; }
 
+    public int LikeStory { get; set; }
     public virtual ICollection<Storylike> Storylikes { get; set; } = new List<Storylike>();
 
     public virtual User? User { get; set; }

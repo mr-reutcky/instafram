@@ -34,3 +34,21 @@ C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database D
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.pdb
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\instafram.DAL.genruntimeconfig.cache
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.DAL\obj\Debug\net8.0\ref\instafram.DAL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\bin\Debug\net8.0\instafram.DAL.deps.json
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\bin\Debug\net8.0\instafram.DAL.runtimeconfig.json
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\bin\Debug\net8.0\instafram.DAL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\bin\Debug\net8.0\instafram.DAL.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\bin\Debug\net8.0\instafram.Models.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\bin\Debug\net8.0\instafram.Models.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.csproj.AssemblyReference.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.AssemblyInfoInputs.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.AssemblyInfo.cs
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.csproj.CoreCompileInputs.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.sourcelink.json
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafra.B8EBA51F.Up2Date
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\refint\instafram.DAL.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\instafram.DAL.genruntimeconfig.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.DAL\obj\Debug\net8.0\ref\instafram.DAL.dll

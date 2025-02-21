@@ -50,15 +50,15 @@ INSERT INTO follow (FollowerId, FolloweeId, Timestamp) VALUES
 
 -- Insert posts (3 per user)
 INSERT INTO post (UserId, Caption, Picture, Timestamp, Likes) VALUES
-(1, 'Training hard!', 'post1.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
-(1, 'Game day!', 'post2.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
-(1, 'Victory!', 'post3.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
-(2, 'Practice session!', 'post4.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
-(2, 'Match highlights!', 'post5.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
-(2, 'Family time!', 'post6.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
-(3, 'Tennis training!', 'post7.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
-(3, 'Grand Slam memories!', 'post8.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
-(3, 'Winning moment!', 'post9.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000));
+(1, 'Training hard!', '../Images/img2.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(1, 'Game day!', '../Images/img3.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(1, 'Victory!', '../Images/img4.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(2, 'Practice session!', '../Images/img5.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(2, 'Match highlights!', '../Images/img6.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(2, 'Family time!', '../Images/img7.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(3, 'Tennis training!', '../Images/img8.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(3, 'Grand Slam memories!', '../Images/img9.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000)),
+(3, 'Winning moment!', '../Images/img10.jpg', CURRENT_TIMESTAMP, FLOOR(RAND() * 1000));
 
 
 -- Insert likes (15-20 per post, randomized users)
@@ -80,12 +80,12 @@ INSERT INTO comment (UserId, PostId, Comment, Timestamp) VALUES
 (7, 1, 'Inspirational!', CURRENT_TIMESTAMP);
 
 -- Insert stories (expiring in 1 minute for testing)
-INSERT INTO story (Views, UserId, Timestamp, ExpirationTime) VALUES
-(100, 1, '2025-02-19 14:00:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP)),
-(250, 2, '2025-02-18 12:30:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP)),
-(75, 3, '2025-02-19 08:45:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP)),
-(300,  4, '2025-02-17 17:15:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP)),
-(20, 5, '2025-02-19 21:00:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP));
+INSERT INTO story (Views, UserId, Timestamp, ExpirationTime, Picture, LikeStory) VALUES
+(100, 1, '2025-02-19 14:00:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP), '../Images/img1.jpg', 1),
+(250, 2, '2025-02-18 12:30:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP), '../Images/img2.jpg', 2),
+(75, 3, '2025-02-19 08:45:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP), '../Images/img3.jpg', 3),
+(300,  4, '2025-02-17 17:15:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP), '../Images/img4.jpg', 4),
+(20, 5, '2025-02-19 21:00:00', DATEADD(HOUR, 24, CURRENT_TIMESTAMP), '../Images/img5.jpg', 5);
 
 -- Insert storylikes (15-20 per post, randomized users)
 INSERT INTO storylikes (UserId, StoryId, Timestamp) VALUES

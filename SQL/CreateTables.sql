@@ -60,6 +60,7 @@ CREATE TABLE story (
     Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
     ExpirationTime DATETIME,
 	Picture NVARCHAR(255),
+	LikeStory INT,
     FOREIGN KEY (UserId) REFERENCES users(UserId) ON DELETE CASCADE
 );
 

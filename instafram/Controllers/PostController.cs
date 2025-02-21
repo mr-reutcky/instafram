@@ -48,7 +48,6 @@ namespace instafram.Controllers {
             return RedirectToAction("Index");
         }
 
-
         [HttpGet]
         public IActionResult CommentForm(int Id) {
             ViewBag.PlayerId = 1;
@@ -64,6 +63,21 @@ namespace instafram.Controllers {
                 return Redirect("/Post/Index");
             }
             return View(comment);
+        }
+
+        [HttpGet]
+        public IActionResult NewPost() {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult NewPost(Post post) {
+            if (ModelState.IsValid) {
+                _postService.CreatePost(post);
+                return Redirect("/Post/Index");
+            }
+
+            return View(post);
         }
     }
 }

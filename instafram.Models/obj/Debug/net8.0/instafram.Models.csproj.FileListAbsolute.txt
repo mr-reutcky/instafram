@@ -22,3 +22,15 @@ C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database D
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.Models\obj\Debug\net8.0\refint\instafram.Models.dll
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.Models\obj\Debug\net8.0\instafram.Models.pdb
 C:\Users\foxchan\OneDrive\Desktop\Code folder\Back End Class\Rational Database Design\Assignment\Final Project\instafram.Models\obj\Debug\net8.0\ref\instafram.Models.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\bin\Debug\net8.0\instafram.Models.deps.json
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\bin\Debug\net8.0\instafram.Models.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\bin\Debug\net8.0\instafram.Models.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\instafram.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\instafram.Models.AssemblyInfoInputs.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\instafram.Models.AssemblyInfo.cs
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\instafram.Models.csproj.CoreCompileInputs.cache
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\instafram.Models.sourcelink.json
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\instafram.Models.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\refint\instafram.Models.dll
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\instafram.Models.pdb
+C:\Users\habtu\source\repos\inClassExercise\instafram\instafram.Models\obj\Debug\net8.0\ref\instafram.Models.dll

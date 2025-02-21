@@ -1,0 +1,25 @@
+﻿@model List<Story>
+@foreach (Story story in Model)
+{
+	<div>
+		<img src="../Images/img11.jpg" />
+		@if (story.Views != null)
+		{
+			<p>Views: @story.Views</p>
+		}
+		else
+		{
+			<p>Views: 0</p>
+		}
+		<p>Likes @story.LikeStory</p>
+		<p>Timestamp: @story.Timestamp</p>
+	</div>
+
+	<div>
+		<a href="/Story/StoryLikePost/@story.StoryId">Like</a>
+	</div>
+}
+
+<br />
+<br />
+<a href="/Story/NewStory">Create new Story</a>
