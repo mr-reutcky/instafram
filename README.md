@@ -33,5 +33,5 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/instafram.git
+   git clone https://github.com/mr-reutcky/instafram.git
    ```
